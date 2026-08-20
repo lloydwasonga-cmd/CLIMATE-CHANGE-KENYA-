@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-  <title>Climate Change in Kenya</title>
+<head>
+  <title>Climate Change Globally| UON</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0fdf4; /* light green background */
+      background: #f0fdf4;
       color: #222;
       margin: 0;
       padding: 20px;
     }
     h1 {
-      color: #2e7d32; /* deep green heading */
+      color: #2e7d32;
       text-align: center;
     }
     iframe {
-      border: none;       /* remove ugly border */
-      width: 100%;        /* full width */
-      height: 1000px;     /* taller window */
-      background: #fff;   /* clean white background for doc */
+      border: none;
+      width: 100%;
+      min-height: 600px;
+      background: #fff;
+    }
+    @media (min-width: 768px) {
+      iframe { min-height: 1000px; }
+    }
+    .photo-slot {
+      width: 100%;
+      margin: 20px 0;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <h1>Climate Change in Kenya </h1>
+  <h1>Climate CHANGE?</h1>
+
+  <!-- Image slots -->
+  <img src="forest.jpg" alt="Forest" class="photo-slot">
+  <img src="drought.jpg" alt="Drought" class="photo-slot">
+  <img src="river.jpg" alt="River" class="photo-slot">
+
+  <!-- Google Doc embed -->
   <iframe src="https://docs.google.com/document/d/12mEMEmYfo6iO8NURrW_-HNyLhiR70sbaO0CS8a_diu0/edit?usp=drivesdk"></iframe>
 </body>
 </html>
